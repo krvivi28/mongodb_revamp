@@ -1,0 +1,29 @@
+{
+  "runtime": 512,
+  "percentageScore": 100,
+  "count": {
+    "total": 1,
+    "passed": 1
+  },
+  "failedTestCases": [],
+  "suites": [
+    {
+      "suiteName": "Testing aggregation routes",
+      "passed": true,
+      "testCases": [
+        {
+          "passed": true,
+          "description": "aggregates total revenue for each product"
+        },
+        {
+          "passed": true,
+          "description": "groups expenses by tags"
+        },
+        {
+          "passed": true,
+          "description": "groups and calculates average by recurring status"
+        }
+      ]
+    }
+  ]
+}

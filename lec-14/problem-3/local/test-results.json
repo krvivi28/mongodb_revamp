@@ -1,0 +1,29 @@
+{
+  "runtime": 498,
+  "percentageScore": 100,
+  "count": {
+    "total": 1,
+    "passed": 1
+  },
+  "failedTestCases": [],
+  "suites": [
+    {
+      "suiteName": "Student Management API",
+      "passed": true,
+      "testCases": [
+        {
+          "passed": true,
+          "description": "should create indexes successfully"
+        },
+        {
+          "passed": true,
+          "description": "should get students with average score"
+        },
+        {
+          "passed": true,
+          "description": "should get qualified students count"
+        }
+      ]
+    }
+  ]
+}

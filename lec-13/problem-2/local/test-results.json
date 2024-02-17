@@ -1,0 +1,25 @@
+{
+  "runtime": 597,
+  "percentageScore": 100,
+  "count": {
+    "total": 1,
+    "passed": 1
+  },
+  "failedTestCases": [],
+  "suites": [
+    {
+      "suiteName": "POST /api/bucket-list-items",
+      "passed": true,
+      "testCases": [
+        {
+          "passed": true,
+          "description": "adds a new bucket list item"
+        },
+        {
+          "passed": true,
+          "description": "fetches a specific bucket list item by title"
+        }
+      ]
+    }
+  ]
+}

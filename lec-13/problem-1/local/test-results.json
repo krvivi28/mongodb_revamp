@@ -1,0 +1,21 @@
+{
+  "runtime": 548,
+  "percentageScore": 100,
+  "count": {
+    "total": 1,
+    "passed": 1
+  },
+  "failedTestCases": [],
+  "suites": [
+    {
+      "suiteName": "POST /api/confessions",
+      "passed": true,
+      "testCases": [
+        {
+          "passed": true,
+          "description": "it creates a new confession"
+        }
+      ]
+    }
+  ]
+}

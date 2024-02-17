@@ -1,0 +1,21 @@
+{
+  "runtime": 640,
+  "percentageScore": 100,
+  "count": {
+    "total": 1,
+    "passed": 1
+  },
+  "failedTestCases": [],
+  "suites": [
+    {
+      "suiteName": "Testing update and delete routes",
+      "passed": true,
+      "testCases": [
+        {
+          "passed": true,
+          "description": "updates a tag in a specific expense"
+        }
+      ]
+    }
+  ]
+}
