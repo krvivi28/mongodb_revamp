@@ -98,7 +98,6 @@ export default class ExpenseController {
     try {
       const { id } = req.params;
       const { tag } = req.query;
-      console.log(id, tag);
       await this.expenseRepository.deleteTagFromExpense(id, tag);
       res.status(200).send("Tag deleted successfully.");
     } catch (error) {

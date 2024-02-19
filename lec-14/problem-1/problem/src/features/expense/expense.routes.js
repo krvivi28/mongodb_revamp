@@ -38,7 +38,7 @@ router.put("/update/tag/:id", (req, res) => {
 });
 
 // Route to delete a tag from a specific expense
-router.delete("/delete/tags/:id", (req, res) => {
+router.delete("/delete/tags/:id/:tag", (req, res) => {
   expenseController.deleteTag(req, res);
 });
 
